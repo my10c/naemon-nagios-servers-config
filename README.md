@@ -134,7 +134,18 @@ User                root
 Command             /etc/rc.banner > /tmp/banner.out
 ```
 
+### flexibility
+depends on your need, is should be easy to change the code for things like
+- server has more then 1 IP (example IPv4 and IPv6)
+- server group in one line
+- server group has only 1 member and hence 1 IP
+
+I implemented several of the above scenarios, somewhere :-)
+
+- set/adjust the config.json
+- adjust the script, if you know Python (🐍) it should not be that difficult 🤓
 
 ### Suggestions welcome
 enjoy my10c
+
 ☮ 🥃
