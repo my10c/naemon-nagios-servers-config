@@ -1,0 +1,46 @@
+# this is use to create a host monitor configuration file
+#
+#  == server name
+#  == server ip
+#		"cmd_id": 1, "check_disk_nrpe": "Disk check"
+#		"cmd_id": 2, "check_fs_ro_nrpe": "RO Filesystems check"
+#		"cmd_id": 3, "check_load_nrpe": "Load check"
+#		"cmd_id": 4, "check_memory_nrpe": "Memory check"
+#		"cmd_id": 5, "check_ntp_nrpe": "NTP offset check"
+#		"cmd_id": 6, "check_ntp_time_nrpe": "NTP time check"
+#		"cmd_id": 7, "check_pkt_lost_nrpe": "RTA and packet lost check"
+#		"cmd_id": 8, "check_ssd_nrpe": "SSD Wear check"
+#		"cmd_id": 9, "check_ssh": "SSH"
+#		"cmd_id": 10, "check_swap_nrpe": "Swap check"
+#		"cmd_id": 11, "check_swap_off_nrpe": "Swap off check"
+#		"cmd_id": 12, "check_total_procs_nrpe": "Total procs check"
+#		"cmd_id": 13, "check_uptime_nrpe": "Uptime check"
+#		"cmd_id": 14, "check_users_nrpe": "Users check"
+#		"cmd_id": 15, "check_named_nrpe": "Named check"
+#		"cmd_id": 16, "check_dns_local_nrpe": "Local dns"
+#		"cmd_id": 17, "check_humidity_nrpe": "Humidity check"
+#		"cmd_id": 18, "check_temperature_nrpe": "Temperature check"
+#		"cmd_id": 19, "check_ovpn_nrpe": "VPN check"
+#		"cmd_id": 20, "check_dns_lilo_nrpe": "Lilo dns"
+#		"cmd_id": 21, "check_dns_stitch_nrpe": "Stitch dns"
+#		"cmd_id": 22, "check_cert_badassops": "badassops cert"
+#		"cmd_id": 23, "check_cert_naemon": "naemon cert"
+#		"cmd_id": 24, "check_cert_proxmox": "proxmox cert"
+#		"cmd_id": 25, "check_https_maas": "HTTPS check port 5443"
+#		"cmd_id": 26, "check_https": "HTTPS check"
+#		"cmd_id": 27, "check_ntp_stratum": "NTP stratum check"
+#		"cmd_id": 28, "check_ntp_stratum_2": "NTP stratum 2 check"
+#		"cmd_id": 29, "check_memory_prxmox_nrpe: "Memory check Proxmox"
+#
+cyan______:10.10.10.10:1:2:3:4:5:6:7:_:9:__:11:12:13:14
+#
+# Netgate
+#	"cmd_id": 90, "check_netgate_users": "Netgat Users"
+#	"cmd_id": 91, "check_netgate_load": "Netgate Load"
+#	"cmd_id": 92, "check_netgate_root_partition": "Netgate Root partition"
+#	"cmd_id": 93, "check_netgate_var_partition": "Netgate Var partition"
+#	"cmd_id": 94, "check_netgate_procs": "Netgate Procs"
+#	"cmd_id": 95, "check_netgate_ntp_peer": "Netgate NTPE Peer"
+#	"cmd_id": 96, "check_netgate_uptime": "Netgate Uptime"
+#	"cmd_id": 97, "check_netgate_info": "Netgate Info
+chimera___:10.10.10.1___:90:91:92:93:94:95:96:97

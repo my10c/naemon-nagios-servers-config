@@ -1,0 +1,228 @@
+{
+  "domain": "",
+  "host_template": "generic-bao-template",
+  "service_template": "generic-service",
+  "fw_hosts" : ["chimera"],
+  "1": {
+    "cmd_id": 1,
+    "cmd_name": "check_disk_nrpe",
+    "cmd_info": "Disk check",
+    "cmd_stats": true
+  },
+  "2": {
+    "cmd_id": 2,
+    "cmd_name": "check_fs_ro_nrpe",
+    "cmd_info": "RO Filesystems check",
+    "cmd_stats": true
+  },
+  "3": {
+    "cmd_id": 3,
+    "cmd_name": "check_load_nrpe",
+    "cmd_info": "Load check",
+    "cmd_stats": true
+  },
+  "4": {
+    "cmd_id": 4,
+    "cmd_name": "check_memory_nrpe",
+    "cmd_info": "Memory check",
+    "cmd_stats": true
+  },
+  "5": {
+    "cmd_id": 5,
+    "cmd_name": "check_ntp_nrpe",
+    "cmd_info": "NTP offset check",
+    "cmd_stats": false
+  },
+  "6": {
+    "cmd_id": 6,
+    "cmd_name": "check_ntp_time_nrpe",
+    "cmd_info": "NTP time check",
+    "cmd_stats": true
+  },
+  "7": {
+    "cmd_id": 7,
+    "cmd_name": "check_pkt_lost_nrpe",
+    "cmd_info": "RTA and packet lost check",
+    "cmd_stats": true
+  },
+  "8": {
+    "cmd_id": 8,
+    "cmd_name": "check_ssd_nrpe",
+    "cmd_info": "SSD Wear check",
+    "cmd_stats": true
+  },
+  "9": {
+    "cmd_id": 9,
+    "cmd_name": "check_ssh",
+    "cmd_info": "SSH",
+    "cmd_stats": true
+  },
+  "10": {
+    "cmd_id": 10,
+    "cmd_name": "check_swap_nrpe",
+    "cmd_info": "Swap check",
+    "cmd_stats": true
+  },
+  "11": {
+    "cmd_id": 11,
+    "cmd_name": "check_swap_off_nrpe",
+    "cmd_info": "Swap off check",
+    "cmd_stats": false
+  },
+  "12": {
+    "cmd_id": 12,
+    "cmd_name": "check_total_procs_nrpe",
+    "cmd_info": "Total procs check",
+    "cmd_stats": true
+  },
+  "13": {
+    "cmd_id": 13,
+    "cmd_name": "check_uptime_nrpe",
+    "cmd_info": "Uptime check",
+    "cmd_stats": true
+  },
+  "14": {
+    "cmd_id": 14,
+    "cmd_name": "check_users_nrpe",
+    "cmd_info": "Users check",
+    "cmd_stats": true
+  },
+  "15": {
+    "cmd_id": 15,
+    "cmd_name": "check_named_nrpe",
+    "cmd_info": "Named check",
+    "cmd_stats": true
+  },
+  "16": {
+    "cmd_id": 16,
+    "cmd_name": "check_dns_local_nrpe",
+    "cmd_info": "Local dns",
+    "cmd_stats": false
+  },
+  "17": {
+    "cmd_id": 17,
+    "cmd_name": "check_humidity_nrpe",
+    "cmd_info": "Humidity check",
+    "cmd_stats": true
+  },
+  "18": {
+    "cmd_id": 18,
+    "cmd_name": "check_temperature_nrpe",
+    "cmd_info": "Temperature check",
+    "cmd_stats": true
+  },
+  "19": {
+    "cmd_id": 19,
+    "cmd_name": "check_ovpn_nrpe",
+    "cmd_info": "VPN check",
+    "cmd_stats": true
+  },
+  "20": {
+    "cmd_id": 20,
+    "cmd_name": "check_dns_lilo_nrpe",
+    "cmd_info": "Lilo dns",
+    "cmd_stats": true
+  },
+  "21": {
+    "cmd_id": 21,
+    "cmd_name": "check_dns_stitch_nrpe",
+    "cmd_info": "Stitch dns",
+    "cmd_stats": true
+  },
+  "22": {
+    "cmd_id": 22,
+    "cmd_name": "check_cert_badassops",
+    "cmd_info": "badassops cert",
+    "cmd_stats": true
+  },
+  "23": {
+    "cmd_id": 23,
+    "cmd_name": "check_cert_naemon",
+    "cmd_info": "naemon cert",
+    "cmd_stats": true
+  },
+  "24": {
+    "cmd_id": 24,
+    "cmd_name": "check_cert_proxmox",
+    "cmd_info": "proxmox cert",
+    "cmd_stats": true
+  },
+  "25": {
+    "cmd_id": 25,
+    "cmd_name": "check_https_maas",
+    "cmd_info": "HTTPS check port 5443",
+    "cmd_stats": true
+  },
+  "26": {
+    "cmd_id": 26,
+    "cmd_name": "check_https",
+    "cmd_info": "HTTPS check",
+    "cmd_stats": true
+  },
+  "27": {
+    "cmd_id": 27,
+    "cmd_name": "check_ntp_stratum_nrpe",
+    "cmd_info": "NTP stratum check",
+    "cmd_stats": true
+  },
+  "28": {
+    "cmd_id": 28,
+    "cmd_name": "check_ntp_stratum_2_nrpe",
+    "cmd_info": "NTP stratum 2 check",
+    "cmd_stats": true
+  },
+  "29": {
+    "cmd_id": 29,
+    "cmd_name": "check_memory_prxmox_nrpe",
+    "cmd_info": "Memory check Proxmox",
+    "cmd_stats": true
+  },
+  "90": {
+    "cmd_id": 90,
+    "cmd_name": "check_netgate_users",
+    "cmd_info": "Netgate Users",
+    "cmd_stats": true
+  },
+  "91": {
+    "cmd_id": 91,
+    "cmd_name": "check_netgate_load",
+    "cmd_info": "Netgate Load",
+    "cmd_stats": true
+  },
+  "92": {
+    "cmd_id": 92,
+    "cmd_name": "check_netgate_root_partition",
+    "cmd_info": "Netgate Root partition",
+    "cmd_stats": true
+  },
+  "93": {
+    "cmd_id": 93,
+    "cmd_name": "check_netgate_var_partition",
+    "cmd_info": "Netgate Var partition",
+    "cmd_stats": true
+  },
+  "94": {
+    "cmd_id": 94,
+    "cmd_name": "check_netgate_procs",
+    "cmd_info": "Netgate Procs",
+    "cmd_stats": true
+  },
+  "95": {
+    "cmd_id": 95,
+    "cmd_name": "check_netgate_ntp_peer",
+    "cmd_info": "Netgate NTPE Peer",
+    "cmd_stats": true
+  },
+  "96": {
+    "cmd_id": 96,
+    "cmd_name": "check_netgate_uptime",
+    "cmd_info": "Netgate Uptime",
+    "cmd_stats": true
+  },
+  "97": {
+    "cmd_id": 97,
+    "cmd_name": "check_netgate_info",
+    "cmd_info": "Netgate Info",
+    "cmd_stats": true
+  }
+}
