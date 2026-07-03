@@ -105,7 +105,7 @@ burnwall__:10.10.10.1:90:91:91:92:94:95:96:97
 ```
 
 ### netgate
-under the netgate directory there are  2 scipt
+under the netgate directory there are  2 scripts
 * check\_info
 * check\_uptime
 
