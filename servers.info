@@ -43,4 +43,4 @@ cyan______:10.10.10.10:1:2:3:4:5:6:7:_:9:__:11:12:13:14
 #	"cmd_id": 95, "check_netgate_ntp_peer": "Netgate NTPE Peer"
 #	"cmd_id": 96, "check_netgate_uptime": "Netgate Uptime"
 #	"cmd_id": 97, "check_netgate_info": "Netgate Info
-chimera___:10.10.10.1___:90:91:92:93:94:95:96:97
+burnwall__:10.10.10.1___:90:91:92:93:94:95:96:97
