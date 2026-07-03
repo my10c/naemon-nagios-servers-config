@@ -137,3 +137,4 @@ Command             /etc/rc.banner > /tmp/banner.out
 
 ### Suggestions welcome
 enjoy my10c
+☮ 🥃
